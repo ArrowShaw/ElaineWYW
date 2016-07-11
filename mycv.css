@@ -3,7 +3,7 @@
     font-family: Georgia, "Times New Roman", 
     Times, serif;
     color: black;
-    background-color: white }
+    background-color: mediumseagreen }
     ul.navbar {
        list-style-type: none;
        padding: 0;
@@ -49,19 +49,20 @@
        border-top: thin dotted }
 
 
-    dl {
-      margin-left: 5em;
-      margin-right: 25em;
-    }
+
     header div.photo {
       float: left;
-      border: 0.5em solid mediumseagreen;
-      margin-left: 5em;
+      border: 0em solid forestgreen;
+      margin-left: 100px;
       margin-right: 5em;
     }
     header div.info {
       text-align: left;
-      margin-bottom: 5em;
+      background-color: white;
+      margin-top: 30px;
+      margin-right: 380px;
+      margin-left: 100px;
+      padding: 0.5em 2em 0.5em 2em; 
     }
     header h1 {
       font-family: Georgia, "Times New Roman", 
@@ -71,27 +72,67 @@
       color: gray;
       margin-top: -15px;
     }
-    dl dt {
+
+
+
+    dl.left {
+      margin-left: 65px;
+      margin-right: 380px;
+    }
+    dl.left dt {
       background-color: mediumseagreen;
-      padding-left: 1em;
+      padding-left: 3em;
       padding-top: 0.3em;
-      padding-bottom: 0.3em;
+      padding-bottom: 0.5em;
       font-size: 24px;
       color: white;
       font-family:  Helvetica, Geneva, Arial, 
     SunSans-Regular, sans-serif;
     }
-    dl h2 {
+    dl.left div {
+      background-color: white;
+      padding: 0.5em 2em 0.5em 2em; 
+    }
+    dl.left h2 {
       line-height: 13px;
       margin-bottom: -3px;
       margin-top: 1em;
     }
-
-    dl div p.org {
+    dl.left p {
+      margin-right: 20px;
+    }
+    dl.left div p.org {
       color: gray;
     }
-    dl div p.time {
+    dl.left div p.time {
       float: right;
       color: lightslategray;
       margin-top: -4em;
+    }
+
+
+    dl.right {
+      float: right;
+      width:300px;
+      margin-right: 65px;
+      font-size: 0;
+    }
+    dl.right dt {
+      background-color: white;
+      padding-left: 1em;
+      padding-top: 0.3em;
+      padding-bottom: 0.3em;
+      font-size: 24px;
+      color: mediumseagreen;
+      font-family:  Helvetica, Geneva, Arial, 
+    SunSans-Regular, sans-serif;
+    }
+    dl.right li {
+      margin-left: -55px;
+      background-color: mediumseagreen;
+      width: 300px;
+      font-size: 16px;
+    }
+    canvas {
+      text-align: center;
     }

@@ -43,11 +43,6 @@
     div.intro {
       text-align: center;
     }
-    address {
-       margin-top: 1em;
-       padding-top: 1em;
-       border-top: thin dotted }
-
 
 
     header div.photo {
@@ -163,6 +158,19 @@
     }
     dl.stillright li {
       color: white;
-      padding-left: 20px;
+      padding-left: 60px;
       padding-top: 30px;
     }
+
+
+
+    address {
+       margin-top: 1em;
+       margin-left: 100px;
+       margin-right: 65px;
+       padding-top: 1em;
+       border-top: double;
+       border-width: 5px;
+       border-color: mediumseagreen;
+       text-align: center;
+     }

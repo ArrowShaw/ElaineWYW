@@ -1,0 +1,97 @@
+  body {
+    padding-top: 0em;
+    font-family: Georgia, "Times New Roman", 
+    Times, serif;
+    color: black;
+    background-color: white }
+    ul.navbar {
+       list-style-type: none;
+       padding: 0;
+       margin: 0;
+       overflow: hidden;
+       background-color: black;
+       border-bottom: 0.5em solid forestgreen; }
+    ul.navbar h1 {
+      float: left;
+      padding-left: 0.5em;
+      padding-right: 3.5em;
+      margin-top: 1.5em;
+      font-size: 50px;
+      font-family: STHeiti
+    }
+    ul.navbar li {
+      float: left;
+      background: forestgreen;
+      margin: 0.5em;
+      padding: 0.3em;
+      margin-top: 6em; }
+    ul.navbar a {
+      text-decoration: none;
+      text-align: center;
+      padding: 1em 1em; }
+    a:link { 
+       color: white }
+    a:visited {
+       color: darkseagreen}
+    ul.navbar li.active {
+      background: white;
+      padding: 1em 1em;
+    }
+    h1 {
+      font-family: Helvetica, Geneva, Arial, 
+    SunSans-Regular, sans-serif }
+    div.intro {
+      text-align: center;
+    }
+    address {
+       margin-top: 1em;
+       padding-top: 1em;
+       border-top: thin dotted }
+
+
+    dl {
+      margin-left: 5em;
+      margin-right: 25em;
+    }
+    header div.photo {
+      float: left;
+      border: 0.5em solid mediumseagreen;
+      margin-left: 5em;
+      margin-right: 5em;
+    }
+    header div.info {
+      text-align: left;
+      margin-bottom: 5em;
+    }
+    header h1 {
+      font-family: Georgia, "Times New Roman", 
+    Times, serif;
+    }
+    header h2 {
+      color: gray;
+      margin-top: -15px;
+    }
+    dl dt {
+      background-color: mediumseagreen;
+      padding-left: 1em;
+      padding-top: 0.3em;
+      padding-bottom: 0.3em;
+      font-size: 24px;
+      color: white;
+      font-family:  Helvetica, Geneva, Arial, 
+    SunSans-Regular, sans-serif;
+    }
+    dl h2 {
+      line-height: 13px;
+      margin-bottom: -3px;
+      margin-top: 1em;
+    }
+
+    dl div p.org {
+      color: gray;
+    }
+    dl div p.time {
+      float: right;
+      color: lightslategray;
+      margin-top: -4em;
+    }

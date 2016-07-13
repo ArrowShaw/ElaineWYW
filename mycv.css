@@ -30,9 +30,14 @@
       text-align: center;
       padding: 1em 1em; }
     a:link { 
-       color: white }
+       color: white;
+    }
     a:visited {
-       color: darkseagreen}
+       color: darkseagreen;
+    }
+    a:hover {
+      color: mediumseagreen;
+    }
     ul.navbar li.active {
       background: white;
       padding: 1em 1em;
@@ -40,9 +45,11 @@
     h1 {
       font-family: Helvetica, Geneva, Arial, 
     SunSans-Regular, sans-serif }
-    div.intro {
+
+    div.image {
       text-align: center;
     }
+
 
 
     header div.photo {
@@ -162,6 +169,32 @@
       padding-top: 30px;
     }
 
+    
+    header.por {
+      text-align: center;
+      margin-top: 2em;
+    }
+    header.por h4 {
+      margin-top: -10px;
+      color: forestgreen;
+    }
+    dl.por div {
+      margin-left: 250px;
+    }
+    dl.por img {
+      box-shadow: 3px 3px 3px 3px gray;
+    }
+    dl.por h1 {
+      float: left;
+      margin-left: 600px;
+      margin-top: -200px;
+    }
+    dl.por p.info {
+      float: right;
+      margin-left: 600px;
+      margin-right: 250px;
+      margin-top: -150px;
+    }
 
 
     address {

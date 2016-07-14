@@ -3,7 +3,8 @@
     font-family: Georgia, "Times New Roman", 
     Times, serif;
     color: black;
-    background-color: white }
+    background-color: white;
+    width: 100%;}
     ul.navbar {
        list-style-type: none;
        padding: 0;
@@ -48,6 +49,43 @@
 
     div.image {
       text-align: center;
+    }
+
+    div p.title {
+      text-align: center;
+    }
+
+    div.img {
+      margin: auto;
+      width: 60%;
+    }
+
+    div.intro{
+      text-align: center;
+    }
+
+    div a.btn {
+      box-shadow:none;
+      color:forestgreen;
+      width:40px;
+      height:40px;
+      line-height:40px;
+      display:inline-block;
+      text-align:center;
+      color:#fff;
+      background-color:#000;
+      position:relative;
+      overflow:hidden;
+      z-index:1;
+      padding:0;
+      border-radius:50%;
+      cursor:pointer;
+      font-size:24px;
+    }
+
+
+    div a.btn:hover{
+      color: mediumseagreen;
     }
 
 

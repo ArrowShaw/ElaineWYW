@@ -18,29 +18,45 @@
 
 <!-- content  -->
 
-<div class="image">
-	<a href="" target="_blank"><img src="" alt="" width="300" height="200"></a>
-	<div class="ds"></div>
+<div class="img">
+
+	<img class="image" src="pics/youngandold.jpg" style="width:100%">
+	<img class="image" src="pics/changu.jpg" style="width:100%">
+	<img class="image" src="pics/Chitwan.jpg" style="width:100%">
+	<img class="image" src="pics/church.jpg" style="width:100%">
+	<img class="image" src="pics/smoke.jpg" style="width:100%">
+	<img class="image" src="pics/mirror.jpg" style="width:100%">
+	<img class="image" src="pics/mananddog.jpg" style="width:100%">
+	<img class="image" src="pics/wedding.jpg" style="width:100%">
+	<img class="image" src="pics/night.jpg" style="width:100%">
+
+	<p align="center">
+	<a class="btn" onclick="plusDivs(-1)">❮</a>
+	<a class="btn" onclick="plusDivs(1)">❯</a>
+	</p>
+
+	<p class="title">It's not what you say that defines you. It's what you DO.</p>
 </div>
 
-<div class="image">
-	<a href="" target="_blank"><img src="" alt="" width="300" height="200"></a>
-	<div class="ds"></div>
-</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
 
-<div class="image">
-	<a href="" target="_blank"><img src="" alt="" width="300" height="200"></a>
-	<div class="ds"></div>
-</div>
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
 
-<div class="image">
-	<a href="" target="_blank"><img src="" alt="" width="300" height="200"></a>
-	<div class="ds"></div>
-</div>
-
-<link rel="stylesheet" type="text/css" href="chocoslider.css" />
-<script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript" src="jquery.chocoslider.min.js></script>
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("image");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+</script>
 
 
 <!-- sign and date -->

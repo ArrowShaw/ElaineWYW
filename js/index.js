@@ -4,12 +4,12 @@ var data = {
     datasets: [
         {
             label: "My Second dataset",
-            fillColor: "rgba(126, 206, 253, 0.4)",
-            strokeColor: "rgb(126,206,253)",
-            pointColor: "rgba(205 ,209 ,211 ,1)",
-            pointStrokeColor: "rgb(126,206,253)",
-            pointHighlightFill: "rgb(126,206,253)",
-            pointHighlightStroke: "rgb(126,206,253)",
+            fillColor: "rgba(34,139,34, 0.4)",
+            strokeColor: "rgb(34,139,34)",
+            pointColor: "rgba(34,139,34,1)",
+            pointStrokeColor: "rgb(34,139,34)",
+            pointHighlightFill: "rgb(34,139,34)",
+            pointHighlightStroke: "rgb(34,139,34)",
             data: [7, 5, 4, 4, 4, 8]
         }
     ]
